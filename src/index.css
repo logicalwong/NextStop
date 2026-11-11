@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+body {
+  background-color: #e5e7eb;
+  font-family: 'Plus Jakarta Sans', 'Noto Sans HK', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#root {
+  background-color: #FAF9F6;
+  width: 100%;
+  max-width: 430px;
+  min-height: 100vh;
+  position: relative;
+  box-shadow: 0 0 40px rgba(0,0,0,0.1);
+  overflow-x: hidden;
+}
